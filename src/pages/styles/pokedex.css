@@ -1,0 +1,55 @@
+.poke_content {
+  width: 90%;
+  max-width: 1280px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.poke__header{
+  padding-top: 1.5%;
+  padding-bottom: 1.5%;
+}
+.poke__header-user{
+  color: var(--color-red);
+  font-weight: 600;
+}
+.poke__aside{
+  display: flex;
+  gap: 5%;
+  max-width: 80vw;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 2%;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.poke__aside__form-input {
+  padding: 10px 3vw;
+  box-shadow: -1px 2px 10px #0004;
+  font-size: 1.2rem; 
+  height: 40px;
+}
+
+.poke__aside__form-btn {
+  padding: 10px 20px;
+  color: var(--color-white);
+  background-color: var(--color-red);
+  box-shadow: -1px 1px 10px #0004;
+  cursor: pointer;
+  height: 40px;
+}
+.poke__aside-select{
+  padding: 10px 30px;
+  padding-right: 15vw;
+  box-shadow: -1px 2px 10px #0004;
+  font-size: 1.2rem; 
+  height: 40px;
+}
+.card-container {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+option:hover{
+  background-color: red;
+}
